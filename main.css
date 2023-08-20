@@ -472,4 +472,162 @@ img{
     text-decoration: none;
     cursor: pointer;
 }
+.prn{
+    height: 276.4px;
+    width: 1519.2px;
+    margin-top: 55px;
+}
+.topprn{
+    height: 36px;
+    width: 1250px;
+    margin-left: 130px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.allprn{
+    height: 224.4px;
+    width: 1298px;
+    margin-left: 120px;
+}
+.prn-3rd{
+    display: flex;
+    gap: 80px;
+    margin-top: 70px;
+    font-size: 45px;
+}
 
+
+.prn-up-left{
+    width: 380px;
+    border-bottom: 1px solid black;
+}
+.prn-up-mid{
+    width: 380px;
+    border-bottom: 1px solid black;
+}
+.prn-up-right{
+    width: 380px;
+    border-bottom: 1px solid black;
+}
+.prn-up-left:hover{
+    width: 380px;
+    border-bottom: 5px solid black;
+}
+.prn-up-mid:hover{
+    width: 380px;
+    border-bottom: 5px solid black;
+}
+.prn-up-right:hover{
+    width: 380px;
+    border-bottom: 5px solid black;
+}
+
+
+.prn-3rd a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
+
+.description{
+    margin-top: 45px;
+    width: 1519.2px;
+    height: 680px;
+    background-color: hsl(54, 58%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 1250px;
+    height: 520px;
+    margin-left: 45px;
+}
+.row-up{
+    height: 126px;
+    width: 1300px;
+    display: flex;
+    gap: 90px;
+}
+.rw-up-left{
+    width: 320px;
+    margin-right: 180px;
+}
+.rw-up-right{
+    width: 650px;
+}
+.row-up h2 {
+    font-size: 35px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.row-down{
+    display: flex;
+    height: 400px;
+}
+.rw-dn-left{
+     margin-right: 60px;
+}
+.rw-dn-left p{
+    margin-right: 60px;
+    margin-top: 40px;
+    font-family: 'Mulish', sans-serif;    
+}
+.rw-dn-right{
+    margin-right: 60px;
+}
+.rw-dn-right p{
+    margin-right: 60px;
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;    
+}
+
+.joa{
+    height: 132.4px;
+    width: 1519.2px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.joa span{
+    font-size: 35px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 25px;
+}
+.joa button{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.joa button:hover{
+    position: relative;
+    background-color: black;
+    color: #999999;
+    font-size: 20px;
+    padding: 9px;
+    padding-right: 40px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.joa i{
+    position: absolute;
+    color: white;
+    left: 1155px;
+    font-size: 23px;
+}
+.joa i:hover{
+    position: absolute;
+    color: #999999;
+    left: 1155px;
+    font-size: 23px;
+}
