@@ -680,3 +680,37 @@ img{
     margin-top: 10px;
     font-size: 25px;
 }
+.end{
+    background-color: hsl(222, 21%, 21%);
+    height: 122px;
+    width: 1519.2px;
+}
+.end-up{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;    
+}
+.end-up-n{
+    margin-top: 35px;
+    display: flex;
+}
+.end-up-n a{
+    text-decoration: none;
+    color: #c2c1c1;
+}
+.end-up-n img{
+    height: 35px;
+    width: 40px;
+    margin-left: 4px;
+}
+.end-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.end-down span{
+    color: #c2c1c1;
+    font-size: 15px;
+}
